@@ -49,7 +49,7 @@ $(function(){
 		    url: icon
 		  },
 		  detail: description,
-		  visibleRange: { min: zoom-5, max: zoom },
+		  visibleRange: { min: zoom, max: 20 },
 		  draggable: false
 		});
 		map.Overlays.add(marker);
