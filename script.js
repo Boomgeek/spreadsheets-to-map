@@ -46,8 +46,7 @@ $(function(){
 		{
 		  title: title,
 		  icon: {
-		    url: icon,
-		    offset: { x: 0, y: 0 }
+		    url: icon
 		  },
 		  detail: description,
 		  visibleRange: { min: zoom-5, max: zoom },
