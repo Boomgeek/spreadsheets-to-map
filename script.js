@@ -4,7 +4,7 @@ var spreadSheetObj;
 $(function(){
 
 	init();
-	callSpreadSheet("1rVIcAH6_FaAHXr0JSxsXuEJLCBsTt7PTWqPmjlueOws", function(){
+	callSpreadSheet("https://docs.google.com/spreadsheets/d/1Uxl8RkkhOw8LCDCSsPr-FlYT1a1B6tCB2nwjr4mYATU/edit#gid=1317574293", function(){
 		jsonToMarker();
 	});
 
@@ -14,7 +14,8 @@ $(function(){
 		});
 	}
 
-	function callSpreadSheet(sheetId,callback){
+	function callSpreadSheet(sheetUrl,callback){
+		var sheetId = sheetUrl.substring(sheetUrl.lastIndexOf("d/")+2,sheetUrl.lastIndexOf("/e"));
 		$.ajax({
 			url: "https://script.google.com/macros/s/AKfycbxOLElujQcy1-ZUer1KgEvK16gkTLUqYftApjNCM_IRTL3HSuDk/exec",
 			type: "GET",

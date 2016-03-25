@@ -2,10 +2,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>test map api</title>
-	<style type="text/css">
-		#map{ width: 100%; height: 100%; float: left; margin: 0 10 0 0; padding:0;}
-		body{ margin: 0 0 0 0;}
-	</style>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	
+	<link rel="stylesheet" type="text/css" href="./style.css">
 
 	<script type="text/javascript" src="http://api.longdo.com/map/?key=8fd2e62379b3d7ac1eeec0804cff6a57&debug=1"></script>
 
@@ -15,9 +19,38 @@
 
 <body>
 	<div id="loading"></div>
-	<div id="map"></div>	
+	<div id="map"></div>
+	<div id="road-container">
+		<div id="road-topic" style="padding-left: 2px; padding-right: 2px; margin-top: 10px; font-family: cs_chatthaiuiregular;">ชั้นข้อมูล (LAYER)
+		</div>
+		<div id="road-table-div">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4">ddddddd</div>
+					<div class="col-md-4">ggggggg</div>
+					<div class="col-md-4">hhhhhhh</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">ddddddd</div>
+					<div class="col-md-4">ggggggg</div>
+					<div class="col-md-4">hhhhhhh</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">ddddddd</div>
+					<div class="col-md-4">ggggggg</div>
+					<div class="col-md-4">hhhhhhh</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">ddddddd</div>
+					<div class="col-md-4">ggggggg</div>
+					<div class="col-md-4">hhhhhhh</div>
+				</div>
+			</div>
+		</div>
+	</div>	
 </body>
 <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script type="text/javascript" src="http://fgnass.github.io/spin.js/spin.min.js"></script>
 <script type="text/javascript" src="./loading.js"></script>
 <script type="text/javascript" src="./script.js"></script>
