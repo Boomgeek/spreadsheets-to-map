@@ -21,6 +21,7 @@ $(function(){
 			datatype: "jsonp",
 			data: "id="+sheetId+"&sheet=Sheet1",
 			success: function(res){
+				target.removeChild(spinner.el);
 				console.log(res);
 				spreadSheetObj = res;
 				callback();
@@ -46,9 +47,9 @@ $(function(){
 		  title: title,
 		  icon: {
 		    url: icon,
-		    offset: { x: 12, y: 45 }
+		    offset: { x: 0, y: 0 }
 		  },
-		  detail: "<b>description:</b>"+description+"<br><b>lat:</b>"+lat+"<br><b>lon:</b>"+lon,
+		  detail: description,
 		  visibleRange: { min: zoom-5, max: zoom },
 		  draggable: false
 		});
