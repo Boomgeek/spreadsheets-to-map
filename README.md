@@ -1,7 +1,8 @@
 # Spreadsheets to map
 ## Description
 This project show marker on [Longdo Map API](http://map.longdo.com/longdo-map-api) by import marker data from [Google Spreadsheet](https://www.google.com/intl/th_th/sheets/about/)
-
+## Demo
+http://usermap.longdo.com/supanut/spreadsheets-to-map/
 ## How to Install and Connect to Google Spreadsheet
 1. Go to your Google Spreadsheet
 2. In your document file menu, you'll find File Menu > Tools > Script Editor (you will be redirected to Google's script editor)
