@@ -4,6 +4,8 @@ This project show marker on [Longdo Map API](http://map.longdo.com/longdo-map-ap
 ## Demo
 [Spreadsheet Data](https://docs.google.com/spreadsheets/d/1rVIcAH6_FaAHXr0JSxsXuEJLCBsTt7PTWqPmjlueOws/edit#gid=1414443074) <br />
 [Demo](http://usermap.longdo.com/supanut/spreadsheets-to-map/)
+## Thai Document
+[Thai Document](http://usermap.longdo.com/supanut/longdo-demo/#spreadsheets)
 ## How to Install and Connect to Google Spreadsheet
 1. Go to your Google Spreadsheet
 2. In your document file menu, you'll find File Menu > Tools > Script Editor (you will be redirected to Google's script editor)
@@ -100,6 +102,3 @@ OTHER_LINES
 +-----+-------+----------+-----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+-------------+
 | 3   | test3 | 15.19816 | 101.76340 | POLYGON((100.28454825282097 13.564736213543684,100.32025381922722 13.604782347402825,100.22824332118034 13.598108461592444,100.28454825282097 13.564736213543684))                                   | 10   | bra bra bra |
 +-----+-------+----------+-----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+-------------+
-
-## Thai Document
-[Thai Document](http://usermap.longdo.com/supanut/longdo-demo/#spreadsheets)
